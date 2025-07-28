@@ -1,7 +1,7 @@
-import { renderSVG } from './renderSVG.js';
-import { renderTitle } from './renderTitle.js';
-import { renderBars } from './renderBars.js';
-import { loadData } from './loadData.js';
+import { renderSVG } from "./renderSVG.js";
+import { renderTitle } from "./renderTitle.js";
+import { renderBars } from "./renderBars.js";
+import { loadData } from "./loadData.js";
 
 export const main = (container, { state, setState }) => {
   if (!state.dimensions) return;

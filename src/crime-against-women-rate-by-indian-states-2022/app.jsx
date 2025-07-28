@@ -1,19 +1,20 @@
-import React, { useRef, useEffect, useState } from 'react';
-import { main } from './main';
-import { useDimensions } from './useDimensions';
+import React, { useRef, useEffect, useState } from "react";
+import { main } from "./main";
+import { useDimensions } from "./useDimensions";
+import "./styles.css";
 
 const App = () => {
   const ref = useRef(null);
   const [state, setState] = useState({});
   const dimensions = useDimensions(ref);
-  
+
   useEffect(() => {
     if (!ref.current || !dimensions) return;
-    
+
     // Update state with dimensions
-    setState(prevState => ({
+    setState((prevState) => ({
       ...prevState,
-      dimensions
+      dimensions,
     }));
   }, [dimensions]);
 
