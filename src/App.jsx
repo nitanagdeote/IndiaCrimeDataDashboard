@@ -11,9 +11,10 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    csv("/data/District_wise_crimes_committed_IPC_2001_2012.csv")
+    csv("/data/crimes-against-women-2022.csv")
       .then((data) => {
         setCrimeData(data);
+        console.log(data);
         setLoading(false);
       })
       .catch((err) => {
@@ -43,9 +44,7 @@ function App() {
         <div>
           {loading && <p>Loading crime data...</p>}
           {error && <p>Error loading data: {error}</p>}
-          {!loading && !error && (
-            <p>Loaded {crimeData.length} crime records</p>
-          )}
+          {!loading && !error && <p>Loaded {crimeData.length} crime records</p>}
         </div>
       </div>
       <p className="read-the-docs">
