@@ -21,3 +21,8 @@ If you are developing a production application, we recommend using TypeScript wi
 
 <img width="1840" height="926" alt="image" src="https://github.com/user-attachments/assets/adf65648-c48c-4978-b93a-971178f5f0ff" />
 
+
+## Data Summary for the year 2022 (No data for the year 2023 right now)
+
+<img width="1840" height="926" alt="image" src="https://github.com/user-attachments/assets/2a7e585d-a822-49c5-b6a7-93c9d75930bd" />
+
