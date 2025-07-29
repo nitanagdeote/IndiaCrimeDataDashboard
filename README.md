@@ -18,3 +18,6 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Data Source
 
 [NCRB](https://www.ncrb.gov.in/crime-in-india-table-content.html?year=2022)
+
+<img width="1840" height="926" alt="image" src="https://github.com/user-attachments/assets/adf65648-c48c-4978-b93a-971178f5f0ff" />
+
